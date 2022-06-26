@@ -1,6 +1,6 @@
 let sender = prompt("İsminizi giriniz .");
 
-const socket = io.connect("http://localhost:3000", {
+const socket = io.connect("https://ctn-chat.herokuapp.com/", {
   query: "sender=" + sender,
 });
 
